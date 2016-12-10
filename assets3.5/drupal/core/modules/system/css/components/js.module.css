@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+  <meta charset="utf-8" />
+<meta name="title" content="404 | UNICEF" />
+<meta property="og:image" content="http://www.unicef.org/sites/default/files/meta/og/default/UNICEF_DefaultIMG_IMG_1200x630.png" />
+<meta property="og:image:secure_url" content="https://www.unicef.org/sites/default/files/meta/og/default/UNICEF_DefaultIMG_IMG_1200x630.png" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="alternate" hreflang="en" href="https://www.unicef.org/node/2061" />
+<link rel="alternate" hreflang="fr" href="https://www.unicef.org/fr/node/2061" />
+<link rel="alternate" hreflang="es" href="https://www.unicef.org/es/node/2061" />
+<link rel="alternate" hreflang="ar" href="https://www.unicef.org/ar/node/2061" />
+<link rel="alternate" hreflang="zh-hans" href="https://www.unicef.org/zh/node/2061" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+  <title>404 | UNICEF</title>
+
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif:400i|Roboto:300,400,700&subset=latin-ext" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/themes/custom/unicef_global/assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/themes/custom/unicef_global/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/themes/custom/unicef_global/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/themes/custom/unicef_global/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="/themes/custom/unicef_global/assets/favicons/safari-pinned-tab.svg" color="#2159a8">
+  <link rel="shortcut icon" href="/themes/custom/unicef_global/assets/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="UNICEF">
+  <meta name="application-name" content="UNICEF">
+  <meta name="msapplication-config" content="/themes/custom/unicef_global/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/core/modules/system/css/components/ajax-progress.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/align.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/autocomplete-loading.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/fieldgroup.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/container-inline.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/clearfix.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/details.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/hidden.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/item-list.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/js.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/nowrap.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/position-container.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/progress.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/reset-appearance.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/resize.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/sticky-header.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/tabledrag.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/tablesort.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/system/css/components/tree-child.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/core/modules/views/css/views.module.css?ohxsyr" media="all" />
+<link rel="stylesheet" href="/themes/custom/unicef_global/assets/dist/css/main.css?ohxsyr" media="all" />
+
+  
+<!--[if lte IE 8]>
+<script src="/core/assets/vendor/html5shiv/html5shiv.min.js?v=3.7.3"></script>
+<![endif]-->
+
+</head>
+<body class="path-core page-node-type-_04-error-page">
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WBDQQ5"
+ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WBDQQ5');</script>
+<!-- End Google Tag Manager -->
+
+<a href="#main-content" class="visually-hidden focusable skip-link">Skip to main content</a>
+
+
+
+  <div class="l-region l-region-alert">
+          
+
+
+
+  </div>
+
+
+    <header class="header" role="banner">
+    <div class="container">
+          <a class="header__logo" href="/" aria-label="UNICEF - For every child">
+    <svg aria-hidden="true" class="desktop"><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--unicef-logo--en"></use></svg>
+    <svg aria-hidden="true" class="mobile"><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--unicef-small-logo--en"></use></svg>
+</a>
+
+
+
+      <div class="header__nav">
+          <div class="l-region l-region-language-switcher-menu">
+        
+
+
+
+
+    <ul class="header__nav-list header__nav-list--languages mobile-hide">
+
+                              <li lang="en"><a href="/node/2061" class="header__nav-list-el current-lang" hreflang="en" data-drupal-link-system-path="node/2061">English</a></li>
+                              <li lang="fr"><a href="/fr/node/2061" class="header__nav-list-el" hreflang="fr" data-drupal-link-system-path="node/2061">Français</a></li>
+                              <li lang="es"><a href="/es/node/2061" class="header__nav-list-el" hreflang="es" data-drupal-link-system-path="node/2061">Español</a></li>
+                              <li lang="ar"><a href="/ar/node/2061" class="header__nav-list-el" hreflang="ar" data-drupal-link-system-path="node/2061">العربية</a></li>
+                              <li lang="zh-hans"><a href="/zh/node/2061" class="header__nav-list-el" hreflang="zh-hans" data-drupal-link-system-path="node/2061">中文</a></li>
+        
+    </ul>
+
+    <select name="language-select" class="desktop-hide languages">
+              
+          <option value="en"><a href="/node/2061" class="header__nav-list-el current-lang" hreflang="en" data-drupal-link-system-path="node/2061">English</a></option>
+              
+          <option value="fr"><a href="/fr/node/2061" class="header__nav-list-el" hreflang="fr" data-drupal-link-system-path="node/2061">Français</a></option>
+              
+          <option value="es"><a href="/es/node/2061" class="header__nav-list-el" hreflang="es" data-drupal-link-system-path="node/2061">Español</a></option>
+              
+          <option value="ar"><a href="/ar/node/2061" class="header__nav-list-el" hreflang="ar" data-drupal-link-system-path="node/2061">العربية</a></option>
+              
+          <option value="zh-hans"><a href="/zh/node/2061" class="header__nav-list-el" hreflang="zh-hans" data-drupal-link-system-path="node/2061">中文</a></option>
+          </select>
+
+
+
+  </div>
+
+        
+
+
+        <div class="header__nav-button-wrapper js-folder c-folder--contextual-menu">
+
+          <div class="c-folder__wrapper">
+            <button aria-label="Toggle Explore UNICEF Menu" class="button button--transparent button--small button--svg header__nav-button c-folder__button-trigger js-folder-trigger">
+              Explore UNICEF
+              <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__chevron--mini"></use></svg>
+            </button>
+
+            <div class="js-folder-content c-folder__content">
+                <div class="l-region l-region-explore-unicef-menu">
+        
+
+
+    
+    <ul class="header__nav-list">
+
+        
+            <li><a href="/about-us" data-drupal-link-system-path="node/2596">About UNICEF</a></li>
+
+        
+            <li><a href="/where-we-work" data-drupal-link-system-path="node/1311">Where we work </a></li>
+
+        
+            <li><a href="http://www.unicef.org/about/employ/index_careers.html">Work for UNICEF</a></li>
+
+        
+            <li><a href="https://blogs.unicef.org/">UNICEF Connect  </a></li>
+
+        
+            <li><a href="http://www.voicesofyouth.org/">Voices of Youth</a></li>
+
+        
+            <li><a href="https://data.unicef.org">UNICEF data</a></li>
+
+        
+            <li><a href="http://support.unicef.org/">Support UNICEF</a></li>
+
+        
+    </ul>
+
+
+
+
+
+  </div>
+
+            </div>
+          </div>
+
+          <a href="http://www.unicef.org/media/" class="button button--transparent button--small header__nav-button">Press centre</a>
+
+          <button aria-label="Open donation form" class="button button--transparent button--small header__nav-button button--orange js-modal__open">Donate</button>
+
+
+        </div>
+
+      </div>
+
+      <button type="button" class="header__nav-toggle js-nav-toggle" role="button" aria-label="Toggle Main Menu" aria-controls="mobile-panel">
+        <div class="c-menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <span class="visuallyhidden">Menu</span>
+      </button>
+
+      <button type="button" class="header__search-toggle js-nav-search" role="button" aria-label="Toggle Search" aria-controls="search">
+        <span class="visuallyhidden">Search</span>
+        <div class="js-open-search">
+          <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__magnifying-glass"></use></svg>
+        </div>
+        <span class="js-close-search">
+          <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__close"></use></svg>
+        </span>
+      </button>
+    </div>
+
+    <!-- END .banner -->
+
+      <div class="l-region l-region-main-menu">
+    <div role="navigation">
+            
+  <h2 class="visually-hidden">Main navigation</h2>
+  
+
+        
+
+        <nav class="nav">
+        <ul class="nav__list">
+
+            
+
+
+                                    <li class="nav__item has-nav">
+                        <a href="/what-we-do" class="nav__link"><span >What we do</span></a>
+                    </li>
+                
+
+
+            
+
+
+                                    <li class="nav__item has-nav">
+                        <a href="/reports" class="nav__link"><span >Research and Reports</span></a>
+                    </li>
+                
+
+
+            
+
+
+                                    <li class="nav__item has-nav">
+                        <a href="/where-we-work" class="nav__link"><span >Where we work</span></a>
+                    </li>
+                
+
+
+            
+
+
+                                    <li class="nav__item has-nav">
+                        <a href="/take-action" class="nav__link"><span >Take Action</span></a>
+                    </li>
+                
+
+
+            
+
+
+                                    <li class="nav__item--search">
+                        <button href="#" class="js-nav-search" aria-label="Toggle search form">
+                            <div class="js-open-search">
+                                <span>Search</span>
+                                <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__magnifying-glass"></use></svg>
+                            </div>
+                            <div class="js-close-search">
+                                <span>Close</span>
+                                <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__close"></use></svg>
+                            </div>
+                        </button>
+                    </li>
+                
+
+
+            
+        </ul>
+    </nav>
+
+
+
+
+  </div>
+
+  </div>
+
+
+    <div class="c-mobile-panel" id="mobile-panel">
+        <div class="l-region l-region-language-switcher-menu">
+        
+
+
+
+
+    <ul class="header__nav-list header__nav-list--languages mobile-hide">
+
+                              <li lang="en"><a href="/node/2061" class="header__nav-list-el current-lang" hreflang="en" data-drupal-link-system-path="node/2061">English</a></li>
+                              <li lang="fr"><a href="/fr/node/2061" class="header__nav-list-el" hreflang="fr" data-drupal-link-system-path="node/2061">Français</a></li>
+                              <li lang="es"><a href="/es/node/2061" class="header__nav-list-el" hreflang="es" data-drupal-link-system-path="node/2061">Español</a></li>
+                              <li lang="ar"><a href="/ar/node/2061" class="header__nav-list-el" hreflang="ar" data-drupal-link-system-path="node/2061">العربية</a></li>
+                              <li lang="zh-hans"><a href="/zh/node/2061" class="header__nav-list-el" hreflang="zh-hans" data-drupal-link-system-path="node/2061">中文</a></li>
+        
+    </ul>
+
+    <select name="language-select" class="desktop-hide languages">
+              
+          <option value="en"><a href="/node/2061" class="header__nav-list-el current-lang" hreflang="en" data-drupal-link-system-path="node/2061">English</a></option>
+              
+          <option value="fr"><a href="/fr/node/2061" class="header__nav-list-el" hreflang="fr" data-drupal-link-system-path="node/2061">Français</a></option>
+              
+          <option value="es"><a href="/es/node/2061" class="header__nav-list-el" hreflang="es" data-drupal-link-system-path="node/2061">Español</a></option>
+              
+          <option value="ar"><a href="/ar/node/2061" class="header__nav-list-el" hreflang="ar" data-drupal-link-system-path="node/2061">العربية</a></option>
+              
+          <option value="zh-hans"><a href="/zh/node/2061" class="header__nav-list-el" hreflang="zh-hans" data-drupal-link-system-path="node/2061">中文</a></option>
+          </select>
+
+
+
+  </div>
+
+        <div class="l-region l-region-main-menu">
+    <div role="navigation">
+            
+  <h2 class="visually-hidden">Main navigation</h2>
+  
+
+        
+
+        <nav class="nav">
+        <ul class="nav__list">
+
+            
+
+
+                                    <li class="nav__item has-nav">
+                        <a href="/what-we-do" class="nav__link"><span >What we do</span></a>
+                    </li>
+                
+
+
+            
+
+
+                                    <li class="nav__item has-nav">
+                        <a href="/reports" class="nav__link"><span >Research and Reports</span></a>
+                    </li>
+                
+
+
+            
+
+
+                                    <li class="nav__item has-nav">
+                        <a href="/where-we-work" class="nav__link"><span >Where we work</span></a>
+                    </li>
+                
+
+
+            
+
+
+                                    <li class="nav__item has-nav">
+                        <a href="/take-action" class="nav__link"><span >Take Action</span></a>
+                    </li>
+                
+
+
+            
+
+
+                                    <li class="nav__item--search">
+                        <button href="#" class="js-nav-search" aria-label="Toggle search form">
+                            <div class="js-open-search">
+                                <span>Search</span>
+                                <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__magnifying-glass"></use></svg>
+                            </div>
+                            <div class="js-close-search">
+                                <span>Close</span>
+                                <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__close"></use></svg>
+                            </div>
+                        </button>
+                    </li>
+                
+
+
+            
+        </ul>
+    </nav>
+
+
+
+
+  </div>
+
+  </div>
+
+      <div class="header__nav-button-wrapper js-folder c-folder">
+
+        <button class="button button--transparent button--small button--svg header__nav-button js-folder-trigger c-folder c-folder__trigger">
+          Explore UNICEF
+          <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__chevron--mini"></use></svg>
+        </button>
+        <div class="js-folder-content c-folder__content">
+            <div class="l-region l-region-explore-unicef-menu">
+        
+
+
+    
+    <ul class="header__nav-list">
+
+        
+            <li><a href="/about-us" data-drupal-link-system-path="node/2596">About UNICEF</a></li>
+
+        
+            <li><a href="/where-we-work" data-drupal-link-system-path="node/1311">Where we work </a></li>
+
+        
+            <li><a href="http://www.unicef.org/about/employ/index_careers.html">Work for UNICEF</a></li>
+
+        
+            <li><a href="https://blogs.unicef.org/">UNICEF Connect  </a></li>
+
+        
+            <li><a href="http://www.voicesofyouth.org/">Voices of Youth</a></li>
+
+        
+            <li><a href="https://data.unicef.org">UNICEF data</a></li>
+
+        
+            <li><a href="http://support.unicef.org/">Support UNICEF</a></li>
+
+        
+    </ul>
+
+
+
+
+
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <button class="js-modal__open mobile-header-donate">
+    <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__chevron--right"></use></svg>
+    Donate
+  </button>
+    <div class="main-search js-search-section" role="search" id="search">
+    <div>
+      <form class="js-search-header" data-drupal-selector="js-search-header" action="/core/modules/system/ccurl" method="post" id="js-search-header" accept-charset="UTF-8">
+  <div class="c-fake-input c-fake-input--input">
+        
+        <input class="main-search__field js-main-search-field form-search" aria-label="Type your search here" data-drupal-selector="js-search-header-input" type="search" id="js-search-header-input" name="keys" value="" size="60" maxlength="128" placeholder="Type your search here..." />
+
+        
+<input data-drupal-selector="form-3wl7pem5dwky4b-cwc8hxxkh8z6olstzyk5g4sybkg8" type="hidden" name="form_build_id" value="form-3wL7pEm5dwKy4B_cWC8HxXKH8z6OLStZYK5g4SYbkG8" />
+<input data-drupal-selector="edit-js-search-header" type="hidden" name="form_id" value="js-search-header" />
+
+        <button class="c-fake-input__button" type="submit">
+            <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__magnifying-glass"></use></svg>
+            <span class="visuallyhidden">Search</span>
+        </button>
+    </div>
+</form>
+
+      <div class="clearfix">
+              </div>
+    </div>
+  </div>
+
+
+
+<main role="main">
+  <header class="c-hero c-hero--error-page">
+    <div class="c-hero__box c-hero__box--error-page c-hero__box--landing">
+      <svg>
+        <use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__warning"></use>
+      </svg>
+      <h1>404 Error</h1>
+      <em>Sorry! That page cannot be found</em>
+    </div>
+
+    <div class="c-hero__photo-wrap c-hero__photo-wrap--landing">
+      <img data-srcset="/themes/custom/unicef_global/assets/dist/images/error-pages/404-600x400.jpg 600w, /themes/custom/unicef_global/assets/dist/images/error-pages/404-960x640.jpg 960w, /themes/custom/unicef_global/assets/dist/images/error-pages/404-1400x640.jpg 1536w" data-src="/themes/custom/unicef_global/assets/dist/images/error-pages/404-1400x640.jpg" class="lazyload" data-sizes="auto" alt="Harko, 12, and her brother walk home across an arid stretch of land behind two donkeys carrying jerrycans filled with water, in Haro Huba Kebele, Ethiopia." typeof="foaf:Image">
+    </div>
+
+    <div class="container c-hero__container-credit">
+      <small class="c-hero__credit">© UNICEF/UN011588/Ayene</small>
+    </div>
+  </header>
+  <div class="l-error-page-body">
+    <div class="container">
+      <div class="l-12 l-12--centered">
+        <p>
+          Seems like the page you’re looking for has either moved or doesn’t exist. Double-check your spelling and try searching below, or return to the homepage.
+        </p>
+        <a href="/" class="button button--blue button-cta">UNICEF home</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+ <footer class="footer" role="contentinfo">
+    <div class="c-search">
+    <form class="js-search-footer" data-drupal-selector="js-search-footer" action="/core/modules/system/ccurl" method="post" id="js-search-footer" accept-charset="UTF-8">
+        <div class="container">
+            <label class="c-search__label" for="search" id="label-footer-search">Search UNICEF</label>
+            <div class="c-fake-input c-fake-input--input">
+                
+        <input class="c-fake-input__input form-search" aria-labelledby="label-footer-search" data-drupal-selector="js-search-footer-input" type="search" id="js-search-footer-input" name="keys" value="" size="60" maxlength="128" placeholder="Type your search here..." />
+
+        
+<input data-drupal-selector="form-50k-kgdjg1khrog-encb9aoj-wv-f-7c-schto-nlgc" type="hidden" name="form_build_id" value="form-50K-KGDjg1KHROG_EnCB9aoJ-WV-f_7C-scHto_NlGc" />
+<input data-drupal-selector="edit-js-search-footer" type="hidden" name="form_id" value="js-search-footer" />
+
+                <button class="c-fake-input__button" type="submit">
+                    <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__magnifying-glass"></use></svg>
+                    <span class="visuallyhidden">Search</span>
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+    <div class="l-footer container">
+
+              
+
+
+    
+    
+            <div class="l-footer__column">
+                <ul>
+
+                                                <li><a href="/" data-drupal-link-system-path="node/1946">UNICEF home</a></li>
+                                                <li><a href="/what-we-do" data-drupal-link-system-path="node/1976">What we do</a></li>
+                                                <li><a href="/reports" data-drupal-link-system-path="node/1941">Research and reports</a></li>
+                                                <li><a href="/where-we-work" data-drupal-link-system-path="node/1311">Where we work</a></li>
+                                                <li><a href="http://www.unicef.org/media/">Press centre</a></li>
+                    
+                </ul>
+            </div>
+
+    
+            <div class="l-footer__column">
+                <ul>
+
+                                                <li><a href="/about-us" data-drupal-link-system-path="node/2596">About us </a></li>
+                                                <li><a href="/where-we-work" data-drupal-link-system-path="node/1311">Regions and countries</a></li>
+                                                <li><a href="http://www.unicef.org/about/employ/index_careers.html">Work for UNICEF</a></li>
+                                                <li><a href="http://www.unicef.org/corporate_partners/index_33855.html">Partner with UNICEF</a></li>
+                                                <li><a href="/take-action" data-drupal-link-system-path="node/1956">Take action</a></li>
+                    
+                </ul>
+            </div>
+
+    
+            <div class="l-footer__column">
+                <ul>
+
+                                                <li class="c-folder js-folder">
+      <strong>Related UNICEF sites</strong>
+      <button class="c-folder__trigger c-folder__button-trigger js-folder-trigger desktop-hide">
+        Related UNICEF sites
+        <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__chevron--mini"></use></svg>
+      </button>
+      <ul class="c-folder__content js-folder-content">
+                      <li><a href="https://blogs.unicef.org/">UNICEF Connect</a></li>
+                      <li><a href="http://www.voicesofyouth.org/">Voices of Youth</a></li>
+                      <li><a href="https://data.unicef.org/">UNICEF data</a></li>
+                      <li><a href="http://support.unicef.org/">Support UNICEF</a></li>
+              </ul>
+  </li>
+                    
+                </ul>
+            </div>
+
+    
+
+
+
+
+
+
+
+        <div class="l-footer__column">
+
+            <button class="button button--transparent button--bold js-modal__open" >Become a donor</button>
+                  
+
+
+    
+    <ul class="c-socials">
+
+    
+                    
+        <li class="c-socials__media">
+            <a href="http://www.unicef.org/rss/unicef_news.xml" social-link-footer="rss">
+                <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__rss"></use></svg>
+                <span class="visuallyhidden">RSS</span>
+            </a>
+        </li>
+
+    
+                    
+        <li class="c-socials__media">
+            <a href="https://twitter.com/unicef" social-link-footer="twitter">
+                <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__twitter"></use></svg>
+                <span class="visuallyhidden">Twitter</span>
+            </a>
+        </li>
+
+    
+                    
+        <li class="c-socials__media">
+            <a href="https://www.facebook.com/unicef" social-link-footer="facebook">
+                <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__facebook-full"></use></svg>
+                <span class="visuallyhidden">Facebook</span>
+            </a>
+        </li>
+
+    
+                    
+        <li class="c-socials__media">
+            <a href="http://unicef.tumblr.com/" social-link-footer="tumblr">
+                <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__tumblr"></use></svg>
+                <span class="visuallyhidden">Tumblr</span>
+            </a>
+        </li>
+
+    
+                    
+        <li class="c-socials__media">
+            <a href="https://www.youtube.com/unicef" social-link-footer="youtube">
+                <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__youtube"></use></svg>
+                <span class="visuallyhidden">Youtube</span>
+            </a>
+        </li>
+
+    
+    </ul>
+
+
+
+
+
+
+
+                  
+
+
+    
+    <ul class="list list--inline list--pipe">
+
+        
+            <li><a href="http://www.unicef.org/about/legal.html">Legal</a></li>
+
+        
+            <li><a href="http://www.unicef.org/about/contact.html">Contact us</a></li>
+
+        
+    </ul>
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+</footer>
+
+
+
+<div class="c-modal c-modal__overlay" id="modal_window" aria-hidden="true" role="dialog" aria-labelledby="modal_title">
+  <button class="js-modal__close js-modal__guard c-modal__guard" aria-hidden="true"></button>
+  <div class="c-modal__content" id="modal_holder" role="document">
+    <div class="c-modal__header">
+      <h1 class="c-modal__title" id="modal_title">You can change a child’s life</h1>
+    </div>
+    <form class="donate c-modal__form js-donate-form" data-drupal-selector="donate" action="/core/modules/system/ccurl" method="post" id="donate" accept-charset="UTF-8">
+    <input data-drupal-selector="form-kppqegbqqu037vlco-qyznhmu4je7avdg6kkaz4fiqs" type="hidden" name="form_build_id" value="form-kPPQeGbqQU037vlCo_qYznhMU4je7AvDg6KKaz4fiqs" />
+<input data-drupal-selector="edit-donate" type="hidden" name="form_id" value="donate" />
+
+    <label for="country">Select your country, and we’ll direct you to your local donation page.</label>
+    <select name="country" class="js-countries-list">
+        <option value="">Your country</option>
+    </select>
+    <button class="button button--red">Go to local donation page</button>
+    <a href="#" class="js-modal__close">No thanks</a>
+</form>
+    <button class="c-modal__close js-modal__close" id="modal_close" type="button" aria-label="close">
+      <svg><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__close"></use></svg>
+    </button>
+  </div> <!-- end .modal-content -->
+  <button class="js-modal__close js-modal__guard c-modal__guard" aria-hidden="true"></button>
+</div> <!-- end .modal-overlay -->
+
+<script id="tpl-mosaic-shell-multiple" type="text/html">
+    <%#data-source%>
+      <header class="c-mosaic__intro c-mosaic__intro--multiple">
+        <%#title %><h2 class="c-mosaic__title"><% title %></h2><%/title %>
+        <%#category-alt %>
+        <select class="c-mosaic__select js-mosaic-select" aria-controls="c-mosaic-region<% counter %>">
+          <%#categories%>
+          <option value="<% value %>"><% name %></option>
+          <%/categories%>
+        </select>
+        <%/category-alt %>
+      </header>
+    <div class="js-mosaic-content">
+      <div class="l-card-grid js-mosaic-cards" id="c-mosaic-region<% counter %>" role="region" aria-live="polite"></div>
+    </div>
+
+    <button class="button button--transparent button--transparent-blue c-mosaic__load-more js-mosaic-loadmore">Read more</button>
+    <%/data-source%>
+</script>
+
+<script id="tpl-mosaic-shell-single" type="text/html">
+  <%#data-source%>
+  <header class="c-mosaic__intro">
+    <%#title %><h2 class="c-mosaic__title"><% title %></h2><%/title %>
+    <%#description%><p class="c-mosaic__desc"><% description %></p><%/description%>
+  </header>
+  <div class="js-mosaic-content">
+    <div class="l-card-grid js-mosaic-cards"></div>
+  </div>
+
+  <button class="button button--transparent button--transparent-blue c-mosaic__load-more js-mosaic-loadmore">Read more</button>
+  <%/data-source%>
+</script>
+
+<script id="tpl-mosaic-content" type="text/html">
+  <%#data-source%>
+    <div class="l-card-grid js-mosaic-cards"></div>
+  <%/data-source%>
+</script>
+
+<script id="tpl-card" type="text/html">
+  <%#data-source.tiles%>
+  
+    <article class="c-card
+              <%# type %>c-card--<% type %><%/ type %>
+              <%# color %>c-card--<% color %><%/ color %>
+              <%# featured %>c-card--featured<%/ featured %>
+              <%# lastCards %>last-cards<%/ lastCards %>">
+
+      <%# photo %>
+      <img class="c-card__img"
+           src="<% hero_image_s.src %>"
+           alt="<% hero_image_s.alt %>">
+      <%# featured %>
+      <div class="c-card__fake-img" style="background-image:url(<% hero_image_s.src %>);"></div>
+      <%/ featured %>
+      <%/ photo %>
+
+      <div class="c-card__content">
+        <%#content_category%>
+          <span class="c-card__type">
+            <svg class="i-<% icon %>" aria-hidden="true"><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__<% icon %>"></use></svg>
+            <% content_category %>
+          </span>
+        <%/content_category%>
+
+        <%# publish_date %>
+        <span class="c-card__date">
+          <svg aria-hidden="true"><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__date" /></svg>
+          <time datetime="<% publish_date %>"><% display_date %></time>
+        </span>
+        <%/ publish_date %>
+
+        <%# title %><h3 class="c-card__title"><% title %></h3><% /title %>
+        <%# content %><p class="c-card__excerpt"><% content %></p><%/ content %>
+
+        <%# cta.default %>
+        <a class="c-card__cta" href="<% link.uri %>">
+          <svg class="icon icon__arrow" aria-hidden="true"><use xlink:href="/themes/custom/unicef_global/assets/dist/sprites.svg#svg--icon__chevron--right" /></svg>
+          <% link.title %>
+        </a>
+        <% /cta.default %>
+
+        <%# cta.whiteTransparentButton %>
+        <a class="button button--transparent button--small" href="<% link.uri %>"><% link.title %></a>
+        <% /cta.whiteTransparentButton %>
+
+        <%# cta.geoButton %>
+        <a class="button button--blue" href="<% link.uri %>"><% link.title %></a>
+        <% /cta.geoButton %>
+
+      </div>
+    </article>
+  
+  <%/data-source.tiles%>
+</script>
+
+
+<script src="/themes/custom/unicef_global/assets/dist/js/bundle.js?ohxsyr"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8e6d738690","applicationID":"35665110","transactionName":"MQFUN0FVDUZQBkVQCghLYxFaGwpbVQBJFxUOFA==","queueTime":0,"applicationTime":397,"atts":"HUZXQQlPHkg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
